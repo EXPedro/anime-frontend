@@ -1,0 +1,23 @@
+:root {
+    --fundo-header: brown;
+    --texto-header: white;
+    --fundo-body: #e59a9a;
+    --sombras: 3px 2px 3px black;
+    --botao: lightgrey;
+    --borda-botao: grey;
+}
+
+
+
+html, body {   
+    margin: 0px !important;
+    padding: 0px !important;
+    background-color: var(--fundo-body);
+    overflow: auto !important;
+    display: flex;
+}
+
+.aplicacao{    
+    display: flex;
+    flex-direction: row; 
+}

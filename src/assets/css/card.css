@@ -1,0 +1,30 @@
+.card-container {
+    color: black;
+    background-color: white;
+    height: auto;
+    width: 11.25rem;    /* 180px */
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    align-items: center;
+    box-shadow: var(--sombras);
+    border-radius: 4px;
+    margin: 4px;
+    font-family: 'Oxygen', sans-serif;
+    /*transition: all 0.01s linear;*/
+}
+
+.card-container:hover {    
+    transform: scale(1.005);
+}
+
+/* no tamanho "natural" = 185px x 278px (1,5x) */
+.imagem {
+    height: 12.1875rem;     /* 195px */
+    width: 8.125rem;        /* 130px */
+}
+
+.posiciona-final {
+    align-self: flex-end;
+}
+

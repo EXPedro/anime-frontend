@@ -1,0 +1,19 @@
+.botao {    
+    margin-bottom: 2px;
+    margin-right: 2px;
+    background-color: var(--botao);
+    border-style: solid;   
+    border-color: var(--borda-botao);
+    border-radius: 25px;
+    padding: 4px;
+    font-size: smaller;
+    font-weight: bold;
+}
+
+.botao:hover{
+    transform: scale(1.025);
+}
+
+.botao:active{
+    background-color: var(--borda-botao);
+}
