@@ -1,20 +1,32 @@
 .header{
-    height: 87px;
+    height:53px;
     width: 100vw;
     background-color: var(--fundo-header);
     color: var(--texto-header);
+}
 
-    justify-content: center;
-    text-align: center;
-
+h1 {
     font-family: 'Acme', sans-serif;
     font-size: 2.375rem;    /* 38px */
+    margin: 0px;
+    padding: 0px; 
 }
-/*
-.rodape{
+
+.separador-flex{
+    display: flex; 
+    justify-content: flex-start; 
+}
+
+.rodape {
     height: 5px;
     width: 100vw;
-    top: 88px;
     background-color: var(--texto-header);
 }
-*/
+
+.material-icons{
+    align-self: center;
+}
+
+.material-icons:hover{
+    cursor: pointer;
+}

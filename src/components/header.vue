@@ -1,8 +1,13 @@
 <template>
   <div class="header">
-    <h1>Lista de animes</h1>
+        <div class="separador-flex">
+            <span class="material-icons">
+                menu
+            </span>
+                <h1>Lista de animes</h1>
+        </div>
     <div class="rodape"></div>
- </div>
+  </div>
 </template>
 
 <script>

@@ -1,9 +1,11 @@
 <template>
-    <section>
-      <Header />
+    <section>      
       <div  class= "aplicacao">
-        <Card />
-        <Card />
+        <Header />
+          <div class="area-cards">  
+            <Card />
+            <Card />
+          </div>
       </div>
     </section>
 </template>

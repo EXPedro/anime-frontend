@@ -14,10 +14,14 @@ html, body {
     padding: 0px !important;
     background-color: var(--fundo-body);
     overflow: auto !important;
-    display: flex;
 }
 
 .aplicacao{    
     display: flex;
-    flex-direction: row; 
+    flex-direction: column; 
+}
+
+.area-cards{
+    display: flex;
+    flex-direction: row;
 }
