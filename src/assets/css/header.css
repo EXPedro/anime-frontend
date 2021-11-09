@@ -29,4 +29,5 @@ h1 {
 
 .material-icons:hover{
     cursor: pointer;
+    transform: scale(1.025);
 }
