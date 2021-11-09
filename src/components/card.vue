@@ -9,15 +9,16 @@
             <Buttons class="posiciona-final" />
     </div>
 </template>
+
 <script>
 import Buttons from './buttons';
-require('../assets/css/card.css');
+  require('../assets/css/card.css');
 
-export default {
-  name: 'Card',
+  export default {
+    name: 'Card',
 
-  components: {
-    Buttons,
-  },
-}
+    components: {
+      Buttons,
+    },
+  }
 </script>

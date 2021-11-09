@@ -14,9 +14,8 @@
 </template>
 
 <script>
-require('../assets/css/header.css');
-
-export default {
-  name: 'Header',
-}
+  require('../assets/css/header.css');
+    export default {
+      name: 'Header',
+    }
 </script>

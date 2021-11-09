@@ -9,7 +9,7 @@
     align-items: center;
     box-shadow: var(--sombras);
     border-radius: 4px;
-    margin: 4px;
+    margin: 6px;
     font-family: 'Oxygen', sans-serif;
     /*transition: all 0.01s linear;*/
 }
