@@ -2,8 +2,7 @@
     <section>      
       <div  class= "aplicacao">
         <Header />
-          <div class="area-cards">  
-            <Card />
+          <div class="area-cards"> 
             <Card />
           </div>
       </div>
