@@ -1,13 +1,13 @@
 <template>
   <div>   
-      <ul id="Card" >
+      <ul id="Card" class= "area-cards">
         <li v-for="anime in animes" :key="anime.id" class= "card-container"> 
           <img class="imagem"
                :src= anime.img_path
                 alt="figura"
           />                           
-          <div>{{ anime.nome }}</div>
-          <div>{{ anime.ep }}</div>
+          <div class="tamanho-nome">{{ anime.nome }}</div>
+          <div>Ep. {{ anime.ep }}</div>
           <Buttons class="posiciona-final" />
         </li>
       </ul>       
@@ -72,7 +72,7 @@ import Buttons from './buttons';
                 },
                 { 
                     id: 8,
-                    nome: 'Otome Game no Hametsu Flag shika Nai Akuyaku Reijou ni Tensei shiteshimatta', 
+                    nome: 'Otome Game', 
                     ep: 8, 
                     img_path: 'https://animesonline.cc/wp-content/uploads/2020/04/s8i37CMNKRWi63Oew50QIWDhkpE-185x278.jpg'
                 },

@@ -3,6 +3,7 @@
     width: 100vw;
     background-color: var(--fundo-header);
     color: var(--texto-header);
+    position: fixed;
 }
 
 h1 {

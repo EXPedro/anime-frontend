@@ -7,8 +7,6 @@
     --borda-botao: #D5AD5D;
 }
 
-
-
 html, body {   
     margin: 0px !important;
     padding: 0px !important;
@@ -24,4 +22,8 @@ html, body {
 .area-cards{
     display: flex;
     flex-direction: row;
+    position: absolute;
+    margin: 0px;
+    padding: 0px;
+    top: 1.6875rem;      /* 27px */
 }

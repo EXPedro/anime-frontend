@@ -7,10 +7,13 @@
     flex-direction: column;    
     justify-content: center;
     align-items: center;
+    text-align: center;
     box-shadow: var(--sombras);
     border-radius: 4px;
     margin: 6px;
+    padding: 0px;
     font-family: 'Oxygen', sans-serif;
+    font-size: large;
     /*transition: all 0.01s linear;*/
 }
 
@@ -22,9 +25,14 @@
 .imagem {
     height: 12.1875rem;     /* 195px */
     width: 8.125rem;        /* 130px */
+    margin-top: 0px;
 }
 
 .posiciona-final {
     align-self: flex-end;
+}
+
+.tamanho-nome{
+    height: 2.5em;
 }
 
