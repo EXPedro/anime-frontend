@@ -1,8 +1,8 @@
 <script>
     export default {
         name: 'Animes',
-        
-        data: ()=> ({
+        props:{
+        /*data: ()=> ({*/
             animes: [
                 { 
                     id: 1,
@@ -58,7 +58,7 @@
                     ep: 1, 
                     img_path: 'https://animesonline.cc/wp-content/uploads/2020/01/hI4TCUiWP7wKRwjf64mpljl8CN2-185x278.jpg'
                 },
-            ]
-        })
+            ]}
+        /*})*/
     }
 </script>  

@@ -1,0 +1,21 @@
+div #menu-container {
+    position: absolute;
+    height: 3em;
+    width: fit-content;
+    top: 26px;
+    left: 9px;
+    padding: 4px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    background-color: white;
+    box-shadow: var(--sombras);
+    border-radius: 4px;
+    color: black;
+    font-family: 'Oxygen', sans-serif;
+
+    visibility: hidden;
+    z-index: 999;
+}

@@ -14,6 +14,7 @@
 </template>
 
 <script>
+
   require('../assets/css/header.css');
     export default {
       name: 'Header',
