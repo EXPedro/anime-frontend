@@ -1,7 +1,7 @@
 <template>
   <div class="header">
         <div class="separador-flex">
-            <span class="material-icons">
+            <span class="material-icons menu">
                 menu
             </span>
                 <h1>Lista de animes</h1>

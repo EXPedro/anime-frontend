@@ -57,7 +57,7 @@ import Buttons from './buttons';
                     nome: 'Goblin Slayer', 
                     ep: 6, 
                     img_path: 'https://animesonline.cc/wp-content/uploads/2020/03/dY2oCQXBGDzoeUu1GxaGynHFs1R-185x278.jpg'
-                },
+                },/*
                 { 
                     id: 6,
                     nome: 'Kaifuku Jutsushi no Yarinaoshi', 
@@ -117,7 +117,7 @@ import Buttons from './buttons';
                     nome: 'Kaifuku Jutsushi no Yarinaoshi', 
                     ep: 8, 
                     img_path: 'https://animesonline.cc/wp-content/uploads/2021/01/uWYp8E45aUl9ctFOkjYDqicC8w4-185x278.jpg'
-                },
+                },*/
             ]
     })
   }

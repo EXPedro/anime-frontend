@@ -36,5 +36,9 @@ h1 {
 }
 
 .expand {
-    margin-right: 20px;
+    margin-right: 18px;
+}
+
+.menu {
+    margin-left: 18px;
 }
