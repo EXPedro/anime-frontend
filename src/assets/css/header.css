@@ -34,3 +34,7 @@ h1 {
     cursor: pointer;
     transform: scale(1.025);
 }
+
+.expand {
+    margin-right: 20px;
+}

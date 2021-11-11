@@ -5,7 +5,7 @@
                 menu
             </span>
                 <h1>Lista de animes</h1>
-            <span class="material-icons">
+            <span class="material-icons expand">
                 expand_more
             </span>   
         </div>
