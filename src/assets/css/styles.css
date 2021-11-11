@@ -13,7 +13,7 @@ html, body {
     background-color: var(--fundo-body);
     overflow: auto !important;
 }
-
+ 
 .aplicacao{    
     display: flex;
     flex-direction: column; 
