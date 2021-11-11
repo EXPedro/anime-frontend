@@ -15,7 +15,16 @@ div #menu-container {
     border-radius: 4px;
     color: black;
     font-family: 'Oxygen', sans-serif;
+    font-size: small;
 
-    visibility: hidden;
+    /*visibility: hidden;*/
     z-index: 999;
+}
+
+.linha{
+    height: 0.10em;
+    width: 5em;
+    border-radius: 4px;
+
+    background-color: var(--borda-botao);
 }

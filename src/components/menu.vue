@@ -1,6 +1,7 @@
 <template>
    <div id="menu-container">
-       <span> Acrescentar </span>  
+       <span> Acrescentar </span>
+       <div class="linha"></div>  
        <span> Deletar </span>     
    </div> 
 </template>
