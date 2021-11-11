@@ -1,5 +1,5 @@
 div #menu-container {
-    position: absolute;
+    position: fixed;
     height: 3em;
     width: fit-content;
     top: 26px;

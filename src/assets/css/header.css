@@ -4,6 +4,8 @@
     background-color: var(--fundo-header);
     color: var(--texto-header);
     position: fixed;
+
+    z-index: 990;
 }
 
 h1 {

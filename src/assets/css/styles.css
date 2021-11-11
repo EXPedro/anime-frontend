@@ -20,8 +20,9 @@ html, body {
 }
 
 .area-cards{
-    display: flex;
-    flex-direction: row;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    /*flex-direction: row;*/
     position: absolute;
     margin: 0px;
     padding: 0px;
