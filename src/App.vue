@@ -3,6 +3,7 @@
       <div  class= "aplicacao">
         <Header />
         <Menu />
+        <SortBy />
           <div class="area-cards"> 
             <Card />
           </div>
@@ -14,6 +15,7 @@
 import Header from './components/header';
 import Card from './components/card';
 import Menu from './components/menu';
+import SortBy from './components/sortby'
 
 require('./assets/css/styles.css');
 
@@ -24,6 +26,7 @@ export default {
     Header,
     Card,
     Menu,
+    SortBy,
   },
 
   data: () => ({
