@@ -18,3 +18,11 @@
 .botao:active{
     background-color: var(--borda-botao);
 }
+
+.area-botoes{
+    display: flex;
+}
+
+.posiciona-final {
+    align-self: flex-end;
+}

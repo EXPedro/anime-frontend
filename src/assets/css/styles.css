@@ -11,9 +11,10 @@ html, body {
     margin: 0px !important;
     padding: 0px !important;
     background-color: var(--fundo-body);
-    overflow: auto !important;
+    
+    overflow: auto;
 }
- 
+
 .aplicacao{    
     display: flex;
     flex-direction: column; 

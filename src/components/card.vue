@@ -7,8 +7,8 @@
                 alt="figura"
           />                           
           <div class="tamanho-nome">{{ anime.nome }}</div>
-          <div>Ep. {{ anime.ep }}</div>
-          <Buttons class="posiciona-final" />
+          <div>Ep. {{ anime.ep }} </div>
+          <Buttons class="posiciona-final" :episode.sync= anime.ep v-on:update:ep="atualizador = $event" />          
         </li>
       </ul>       
   </div>  
@@ -26,7 +26,8 @@ import Buttons from './buttons';
       Buttons,
     },
 
-    data:() => ({
+    data:() => ({  
+      atualizador: 0,  
       animes: [
                 { 
                     id: 1,
