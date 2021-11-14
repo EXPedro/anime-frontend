@@ -1,34 +1,34 @@
 <template>
-    <div>
-        <div v-if = "atualizador != 0" >Ep. {{ atualizador }} </div>
-        <div v-else>Ep. {{ epis }} </div> 
-        <Buttons 
-            class="posiciona-final" 
-            :episode.sync= epis 
-            v-on:atualiza:ep= "atualizador = $event"
+  <div>
+    <div v-if = "atualizador != 0" >Ep. {{ atualizador }} </div>
+    <div v-else>Ep. {{ epis }} </div> 
+      <Buttons 
+        class="posiciona-final" 
+        :episode.sync= epis 
+        v-on:atualiza:ep= "atualizador = $event"
         /> 
-    </div> 
+  </div> 
 </template>
 
 <script>
 import Buttons from './buttons';
 
-    export default {
+  export default {
 
-        name: 'Episode',
+    name: 'Episode',
 
-        props: { 
-          epis: Number
-          },
+    props: { 
+      epis: Number
+      },
 
-        components:{
-          Buttons,
-          },
+    components:{
+      Buttons,
+      },
           
-        data: () => ({
-          atualizador: 0,
-          }),  
-    }
+    data: () => ({
+      atualizador: 0,
+      }),  
+  }
 </script>
 
 <style>
