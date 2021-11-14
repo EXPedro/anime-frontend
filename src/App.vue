@@ -1,9 +1,13 @@
 <template>
   <section>      
-    <div  class= "aplicacao">
-      <Header />
-      <Menu />
-      <SortBy />
+    <div  class= "aplicacao" >
+      <Header 
+        menu1='menu1' 
+        menu2='menu2'  
+        v-on:atualiza:menu1= 'menu1=$event' 
+        v-on:atualiza:menu2= 'menu2=$event'/>
+      <Menu v-if='menu1'/>
+      <sortBy v-if='menu2'/>
         <div class="area-cards"> 
           <Card />
         </div>
@@ -15,7 +19,7 @@
   import Header from './components/header';
   import Card from './components/card';
   import Menu from './components/menu';
-  import SortBy from './components/sortby';
+  import sortBy from './components/sortby';
 
   export default {
     name: 'App',
@@ -24,11 +28,13 @@
       Header,
       Card,
       Menu,
-      SortBy,
+      sortBy,
     },
 
     data: () => ({
       //
+      menu1: false,
+      menu2: false,
     }),
   };
 </script>

@@ -1,21 +1,59 @@
 <template>
   <div class="header">
     <div class="separador-flex">
-      <span class="material-icons menu">
+      <span class="material-icons menu" @click= 'showMenu1'>
         menu
-      </span>
+      </span>      
         <h1>Lista de animes</h1>
-      <span class="material-icons expand">
+      <span class="material-icons expand" @click= 'showMenu2'>
         expand_more
-      </span>   
+      </span>    
+       
     </div>
     <div class="rodape"></div>
   </div>
 </template>
 
 <script>
+  import Menu from './menu';
+  import SortBy from './sortby';
+
+  //v-bind:style='{visibility:visible}'
+
   export default {
     name: 'Header',
+    props: {
+      menu1: Boolean,
+      menu2: Boolean,
+    },
+    components: {
+      // eslint-disable-next-line vue/no-unused-components
+      Menu,
+      // eslint-disable-next-line vue/no-unused-components
+      SortBy,
+    },
+    data: ()=>({
+      menuEsquerda: false,
+      menuDireita: false,
+    }),
+    methods:{
+      showMenu1(){
+        if (this.menuEsquerda) {
+          this.menuEsquerda = !this.menu1;
+        }else{
+          this.menuEsquerda = this.menu1;
+        }
+        this.$emit('atualiza:menu1', !this.menuEsquerda)
+        },      
+      showMenu2(){
+        if (this.menuDireita) {
+          this.menuDireita = !this.menu2;
+        }else{
+          this.menuDireita = this.menu2;
+        }
+        this.$emit('atualiza:menu2', !this.menuDireita)
+        }, 
+      },  
     }
 </script>
 

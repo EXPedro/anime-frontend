@@ -10,7 +10,7 @@
 
 <script>
   export default {
-    name:'SortBy',
+    name:'sortBy',
     }
 </script>
 
@@ -34,7 +34,7 @@
     font-family: 'Oxygen', sans-serif;
     font-size: small;
   
-    visibility: hidden;
+    /*visibility: hidden;*/
     z-index: 999;
     }
   
