@@ -4,8 +4,8 @@
       <Header 
         menu1='menu1' 
         menu2='menu2'  
-        v-on:atualiza:menu1= 'menu1=$event' 
-        v-on:atualiza:menu2= 'menu2=$event'/>
+        v-on:atualiza:menuEsquerda= 'menu1=$event' 
+        v-on:atualiza:menuDireita= 'menu2=$event'/>
       <Menu v-if='menu1'/>
       <sortBy v-if='menu2'/>
         <div class="area-cards"> 
@@ -32,7 +32,7 @@
     },
 
     data: () => ({
-      //
+      // Controlling visibility of menus
       menu1: false,
       menu2: false,
     }),
