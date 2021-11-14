@@ -1,36 +1,36 @@
 <template>
-    <section>      
-      <div  class= "aplicacao">
-        <Header />
-        <Menu />
-        <SortBy />
-          <div class="area-cards"> 
-            <Card />
-          </div>
-      </div>
-    </section>
+  <section>      
+    <div  class= "aplicacao">
+      <Header />
+      <Menu />
+      <SortBy />
+        <div class="area-cards"> 
+          <Card />
+        </div>
+    </div>
+  </section>
 </template>
 
 <script>
-import Header from './components/header';
-import Card from './components/card';
-import Menu from './components/menu';
-import SortBy from './components/sortby'
+  import Header from './components/header';
+  import Card from './components/card';
+  import Menu from './components/menu';
+  import SortBy from './components/sortby'
 
-require('./assets/css/styles.css');
+  require('./assets/css/styles.css');
 
-export default {
-  name: 'App',
+  export default {
+    name: 'App',
 
-  components: {
-    Header,
-    Card,
-    Menu,
-    SortBy,
-  },
+    components: {
+      Header,
+      Card,
+      Menu,
+      SortBy,
+    },
 
-  data: () => ({
-    //
-  }),
-};
+    data: () => ({
+      //
+    }),
+  };
 </script>
