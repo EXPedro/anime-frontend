@@ -7,15 +7,13 @@
         <h1>Lista de animes</h1>
       <span class="material-icons expand" @click= 'showMenuDireita'>
         expand_more
-      </span>    
-       
+      </span>        
     </div>
     <div class="rodape"></div>
   </div>
 </template>
 
 <script>
-
   export default {
     name: 'Header',
     props: {
